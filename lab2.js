@@ -14,13 +14,14 @@ function webScraper() {
         if (!error) {
             const $ = cheerio.load(html);
             $('.WSJTheme--story--XB4V2mLz').each(function () {
+
                 const title = $(this).find('h3').text();
                 const link = $(this).find('a').attr('href');
                 const info = $(this).find('p').text();
                 saveNews(title, info, link);
             });
         } else {
-            console.log("We’ve have an error: " + error);
+
         }
 
     });
@@ -112,8 +113,8 @@ const server = net.createServer((socket) => {
     });
 });
 webScraper()
-server.listen(8080, () => {
-    console.log('Server running on port 8080');
+server.listen(8081, () => {
+    console.log('Server running on port 8081');
 });
 
 

@@ -1,6 +1,0 @@
-Title: States Cite Potential Bias in Life-Insurance Algorithms
-
-URL: https://www.wsj.com/articles/regulators-look-at-potential-bias-in-life-insurance-algorithms-c7d838f2?mod=lead_feature_below_a_pos1
-
-News: Regulators are pushing back on the use of data science to speed up cumbersome application processes.3 min read
-
